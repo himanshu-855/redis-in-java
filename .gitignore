@@ -1,0 +1,25 @@
+# Build output
+target/
+*.jar
+*.class
+*.log
+
+# IDE and local workspace settings
+.idea/
+.vscode/
+*.iml
+.codex/
+.agents/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.token
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
